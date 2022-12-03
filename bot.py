@@ -21,9 +21,12 @@ dispatcher = updater.dispatcher
 responses = [
     "Ich weiß dass dir folgendes gefallen wird ",
     "Dein heutiges Geschenk: ",
+    "Moment...Gibt es etwa jeden Tag das selbe? bestimmt nicht!!! aber heute schon ",
     "Herzlichen Glückwunsch, du erhälst ",
+    "Du musst trotzdem jeden Tag dein Tuerchen offenen um das Finale geschenk zu erhalten. Aber heute wird es ",
     "Zur Feier des heutigen Tages schenke ich dir ",
     "Frohlocke! Heute gibts ",
+    "Hoffe es ist noch nicht genug hiervon im Haus. Denn es gibt mehr ",
     "Its dangerous to go alone. Take this: ",
     "Welch herzhafter Tag für ein herzhaftes Stück ",
     "Gepriesen sei der ",
@@ -33,10 +36,10 @@ responses = [
     "Wie schön wäre jetzt ein Stück ",
     "Von ganzem Herzem ",
     "Was du schon immer wolltest ",
-    "Was wäre jetzt besser als "
-    "Du warst artig dieses Jahr! du erhälst "
-    "Warst du etwa doch unartig? denn heute gib es "
-    ""
+    "Was wäre jetzt besser als ",
+    "Du warst artig dieses Jahr! du erhälst ",
+    "Warst du etwa doch unartig? denn heute gib es ",
+    "Wir nähern uns dem Höhepunkt der Weihnachtszeit. Daher gibt es heute "
 ]
 
 item = "Knoblauch!"
@@ -55,7 +58,7 @@ def tuer(update, context):
     
     day = datetime.datetime.today().day
     if day > len(responses):
-        return
+        context.bot.send_message(chat_id=update.effective_chat.id, text="Glückwunsch, du hast das Ende erreicht! Heute kein Knoblauch für dich. Aber dafür frohe Weihnachten!!")
     response = responses[day] + "..." + item
     # send message
     #context.bot.send_message(chat_id=update.effective_chat.id, text=response)
