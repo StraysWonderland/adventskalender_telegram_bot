@@ -58,8 +58,8 @@ def tuer(update, context):
         return
     response = responses[day] + "..." + item
     # send message
-    #context.bot.send_message(chat_id=update.effective_chat.id, text=response)
-    context.bot.send_photo(chat_id, photo=open('image.png', "rb"), response)
+    context.bot.send_message(chat_id=update.effective_chat.id, text=response)
+    context.bot.send_photo(chat_id, photo=open('image.png', "rb"))
 
 # linking the /random command with the function random() 
 day_handler = CommandHandler('tuer', tuer)
