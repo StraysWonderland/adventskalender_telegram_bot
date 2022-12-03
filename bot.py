@@ -59,7 +59,7 @@ def tuer(update, context):
     response = responses[day] + "..." + item
     # send message
     #context.bot.send_message(chat_id=update.effective_chat.id, text=response)
-    context.bot.send_photo(chat_id, photo="https://th.bing.com/th/id/R.13a54f8ea9ef00f32faa5c185cc7bc7e?rik=DdDlK%2b05HUSS6Q&pid=ImgRaw&r=0", response)
+    context.bot.send_photo(chat_id, photo=open('image.png', "rb"), response)
 
 # linking the /random command with the function random() 
 day_handler = CommandHandler('tuer', tuer)
