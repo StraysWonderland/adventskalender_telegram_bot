@@ -65,7 +65,7 @@ updater.start_webhook(
         listen="0.0.0.0",
         port=int(PORT),
         url_path=TOKEN,
-        webhook_url='' + TOKEN
+        webhook_url='https://pollyadventskalender.herokuapp.com/' + TOKEN
     )
 
 updater.idle()
