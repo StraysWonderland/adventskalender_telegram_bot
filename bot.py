@@ -3,6 +3,8 @@ import random
 import logging
 import os
 import datetime 
+
+
 # Enable logging
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
                     level=logging.INFO)
@@ -10,6 +12,7 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 logger = logging.getLogger(__name__)
 
 PORT = int(os.environ.get('PORT', 80))
+
 TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')
 HEROKUURL = os.getenv('HEROKU_URL')
 updater = Updater(token=TOKEN, use_context=True)
@@ -40,6 +43,7 @@ item = "Knoblauch!"
 
 
 
+
 # Define a few command handlers. These usually take the two arguments update and
 # context. Error handlers also receive the raised TelegramError object in error.
 def start(update, context):
@@ -54,8 +58,8 @@ def tuer(update, context):
         return
     response = responses[day] + "..." + item
     # send message
-    context.bot.send_message(chat_id=update.effective_chat.id, text=response)
-    context.bot.send_photo(chat_id, photo="https://th.bing.com/th/id/R.13a54f8ea9ef00f32faa5c185cc7bc7e?rik=DdDlK%2b05HUSS6Q&pid=ImgRaw&r=0")
+    #context.bot.send_message(chat_id=update.effective_chat.id, text=response)
+    context.bot.send_photo(chat_id, photo="https://th.bing.com/th/id/R.13a54f8ea9ef00f32faa5c185cc7bc7e?rik=DdDlK%2b05HUSS6Q&pid=ImgRaw&r=0", response)
 
 # linking the /random command with the function random() 
 day_handler = CommandHandler('tuer', tuer)
