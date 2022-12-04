@@ -18,12 +18,14 @@ HEROKUURL = os.getenv('HEROKU_URL')
 updater = Updater(token=TOKEN, use_context=True)
 dispatcher = updater.dispatcher
 
+# Text message leading to the item reveal. These can be send in random order
 responses = [
+    "Das heutige Türchen e enthält: "  #Day 0 - so wont get drafted currently
     "Ich weiß dass dir folgendes gefallen wird ",
     "Dein heutiges Geschenk: ",
-    "Moment...Gibt es etwa jeden Tag das selbe? bestimmt nicht!!! aber heute schon ",
     "Herzlichen Glückwunsch, du erhälst ",
     "Du musst trotzdem jeden Tag dein Tuerchen offenen um das Finale geschenk zu erhalten. Aber heute wird es ",
+    "Moment...Gibt es etwa jeden Tag das selbe? bestimmt nicht!!! aber heute schon ",
     "Zur Feier des heutigen Tages schenke ich dir ",
     "Frohlocke! Heute gibts ",
     "Hoffe es ist noch nicht genug hiervon im Haus. Denn es gibt mehr ",
@@ -39,30 +41,94 @@ responses = [
     "Was wäre jetzt besser als ",
     "Du warst artig dieses Jahr! du erhälst ",
     "Warst du etwa doch unartig? denn heute gib es ",
-    "Wir nähern uns dem Höhepunkt der Weihnachtszeit. Daher gibt es heute "
+    "Wir nähern uns dem Höhepunkt der Weihnachtszeit. Daher gibt es heute ", #Day 21
+    "",
+    "",
+    "",
+    "Der Finale Tag!" # Day 24
 ]
 
-item = "Knoblauch!"
+# the items to reveal. send these in progressing order based on current day.
+items = [
+    "Knoblauch!", #Day 0 - so wont get drafted currently
+    "Knoblauch!", # Day 1
+    "Knoblauch!", # Day 2
+    "Knoblauch!", # Day 3
+    "Knoblauch!", # Day 4
+    "Ein schönes Glas Senf!",
+    "https://aux.iconspalace.com/uploads/10997651451607759607.png!",
+    "Anti-Aging-Creme!!",
+    "Knoblauch!",
+    "Knoblauch!",
+    "Knoblauch!",
+    "Knoblauch!",
+    "Knoblauch!",
+    "Knoblauch!",
+    "Knoblauch!",
+    "Knoblauch!",
+    "Knoblauch!",
+    "Knoblauch!",
+    "Knoblauch!",
+    "Knoblauch!",
+    "Knoblauch!",
+    "Knoblauch!",
+    "Knoblauch!",
+    "Knoblauch!",
+    "Knoblauch!" # Day 24 - this should be the "best" gift
+]
+
+item_url = [
+    "https://aux.iconspalace.com/uploads/10997651451607759607.png", # garlic
+    "https://aux.iconspalace.com/uploads/10997651451607759607.png", # garlic
+    "https://aux.iconspalace.com/uploads/10997651451607759607.png", # garlic
+    "https://aux.iconspalace.com/uploads/10997651451607759607.png", # garlic
+    "https://aux.iconspalace.com/uploads/10997651451607759607.png", # garlic
+    "https://ih1.redbubble.net/image.828904801.5611/st,small,507x507-pad,600x600,f8f8f8.u4.jpg", # mustard
+    "https://aux.iconspalace.com/uploads/10997651451607759607.png", # garlic
+    "https://emojigraph.org/media/apple/lotion-bottle_1f9f4.png", # creme emojie
+    "https://aux.iconspalace.com/uploads/10997651451607759607.png", # garlic
+    "https://aux.iconspalace.com/uploads/10997651451607759607.png", # garlic
+    "https://aux.iconspalace.com/uploads/10997651451607759607.png", # garlic
+    "https://aux.iconspalace.com/uploads/10997651451607759607.png", # garlic
+    "https://aux.iconspalace.com/uploads/10997651451607759607.png", # garlic
+    "https://aux.iconspalace.com/uploads/10997651451607759607.png", # garlic
+    "https://aux.iconspalace.com/uploads/10997651451607759607.png", # garlic
+    "https://aux.iconspalace.com/uploads/10997651451607759607.png", # garlic
+    "https://aux.iconspalace.com/uploads/10997651451607759607.png", # garlic
+    "https://aux.iconspalace.com/uploads/10997651451607759607.png", # garlic
+    "https://aux.iconspalace.com/uploads/10997651451607759607.png", # garlic
+    "https://aux.iconspalace.com/uploads/10997651451607759607.png", # garlic
+    "https://aux.iconspalace.com/uploads/10997651451607759607.png", # garlic
+    "https://aux.iconspalace.com/uploads/10997651451607759607.png", # garlic
+    "https://aux.iconspalace.com/uploads/10997651451607759607.png", # garlic
+    "https://aux.iconspalace.com/uploads/10997651451607759607.png", # garlic
+    "https://aux.iconspalace.com/uploads/10997651451607759607.png", # Day 24
+]
 
 
-
-
-# Define a few command handlers. These usually take the two arguments update and
-# context. Error handlers also receive the raised TelegramError object in error.
+'''
+Define a few command handlers. These usually take the two arguments update and context. 
+Error handlers also receive the raised TelegramError object in error.
+'''
 def start(update, context):
     # Send a message when the command /start is issued
     update.message.reply_text('Hallo! ich habe einen einzigartigen Adventskalender für dich gebastelt')
 
-
+'''
+Open todays door and reveal corresponding item along with a text flair and photo
+'''
 def tuer(update, context):
     
     day = datetime.datetime.today().day
     if day > len(responses):
         context.bot.send_message(chat_id=update.effective_chat.id, text="Glückwunsch, du hast das Ende erreicht! Heute kein Knoblauch für dich. Aber dafür frohe Weihnachten!!")
-    response = responses[day] + "..." + item
-    # send message
-    #context.bot.send_message(chat_id=update.effective_chat.id, text=response)
-    context.bot.send_photo(chat_id=update.effective_chat.id, photo=open('image.png', "rb"), caption=response)
+   
+    '''
+    Craft the response message text by getting text flair and item based on day
+    And get image to attach to message
+    '''
+    response = responses[day] + "..." + items[day] 
+    context.bot.send_photo(chat_id=update.effective_chat.id, photo=item_url[day], caption=response)
 
 # linking the /random command with the function random() 
 day_handler = CommandHandler('tuer', tuer)
