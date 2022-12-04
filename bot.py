@@ -128,8 +128,7 @@ def tuer(update, context):
     And get image to attach to message
     '''
     response = responses[day] + "..." + items[day] 
-    logger.INFO("current day: " + day)
-    logger.INFO("response text: " + response)
+    logger.INFO("current day: " + day + " " + "response text: " + response)
     context.bot.send_photo(chat_id=update.effective_chat.id, photo=item_url[day], caption=response)
 
 # linking the /random command with the function random() 
