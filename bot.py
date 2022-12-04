@@ -20,7 +20,7 @@ dispatcher = updater.dispatcher
 
 # Text message leading to the item reveal. These can be send in random order
 responses = [
-    "Das heutige Türchen e enthält: "  #Day 0 - so wont get drafted currently
+    #Day 0 - so wont get drafted currently
     "Ich weiß dass dir folgendes gefallen wird ",
     "Dein heutiges Geschenk: ",
     "Herzlichen Glückwunsch, du erhälst ",
@@ -56,7 +56,7 @@ items = [
     "Knoblauch!", # Day 3
     "Knoblauch!", # Day 4
     "Ein schönes Glas Senf!",
-    "https://aux.iconspalace.com/uploads/10997651451607759607.png!",
+    "Doch wieder Knoblauch!",
     "Anti-Aging-Creme!!",
     "Knoblauch!",
     "Knoblauch!",
