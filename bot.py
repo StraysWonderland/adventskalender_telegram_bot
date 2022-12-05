@@ -58,7 +58,7 @@ items = [
     "Ein schönes Glas Senf!",
     "Doch wieder Knoblauch!",
     "Anti-Aging-Creme!!",
-    "Knoblauch!",
+    "Eine saftige Packung Dosenravioli!",
     "Knoblauch!",
     "Knoblauch!",
     "Knoblauch!",
@@ -86,7 +86,7 @@ item_url = [
     "https://ih1.redbubble.net/image.828904801.5611/st,small,507x507-pad,600x600,f8f8f8.u4.jpg", # mustard
     "https://aux.iconspalace.com/uploads/10997651451607759607.png", # garlic
     "https://emojigraph.org/media/apple/lotion-bottle_1f9f4.png", # creme emojie
-    "https://aux.iconspalace.com/uploads/10997651451607759607.png", # garlic
+    "https://media.istockphoto.com/photos/canned-ravioli-picture-id459388797?k=6&m=459388797&s=170667a&w=0&h=uOIFeqQGyWsaKvCYpQRTO_o9IOsTXi63ofjJf9LyQ1A=", # ravioli
     "https://aux.iconspalace.com/uploads/10997651451607759607.png", # garlic
     "https://aux.iconspalace.com/uploads/10997651451607759607.png", # garlic
     "https://aux.iconspalace.com/uploads/10997651451607759607.png", # garlic
