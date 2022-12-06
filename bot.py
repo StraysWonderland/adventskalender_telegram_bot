@@ -29,8 +29,9 @@ responses = [
     "Zur Feier des heutigen Tages schenke ich dir ",
     "Frohlocke! Heute gibts ",
     "Hoffe es ist noch nicht genug hiervon im Haus. Denn es gibt mehr ",
-    "Its dangerous to go alone. Take this: ",
+    "Davon kannst du definitiv nicht genug haben: ",
     "Welch herzhafter Tag für ein herzhaftes Stück ",
+    "Its dangerous to go alone. Take this: ",
     "Gepriesen sei der ",
     "Von mir, für dich ",
     "Ach wie schön. Es ist ",
@@ -58,10 +59,10 @@ items = [
     "Ein schönes Glas Senf!",
     "Doch wieder Knoblauch!",
     "Anti-Aging-Creme!!",
+    "Butter!",
     "Eine saftige Packung Dosenravioli!",
     "Knoblauch!",
-    "Knoblauch!",
-    "Knoblauch!",
+    "Eine ganze Palette Fruchtzwerge!",
     "Knoblauch!",
     "Knoblauch!",
     "Knoblauch!",
@@ -86,10 +87,10 @@ item_url = [
     "https://ih1.redbubble.net/image.828904801.5611/st,small,507x507-pad,600x600,f8f8f8.u4.jpg", # mustard
     "https://aux.iconspalace.com/uploads/10997651451607759607.png", # garlic
     "https://emojigraph.org/media/apple/lotion-bottle_1f9f4.png", # creme emojie
+    "https://cdn.mdr.de/nachrichten/welt/osteuropa/land-leute/butter-inflation-preise-102-resimage_v-variantSmall1x1_w-256.jpg?version=115", #butter
     "https://media.istockphoto.com/photos/canned-ravioli-picture-id459388797?k=6&m=459388797&s=170667a&w=0&h=uOIFeqQGyWsaKvCYpQRTO_o9IOsTXi63ofjJf9LyQ1A=", # ravioli
     "https://aux.iconspalace.com/uploads/10997651451607759607.png", # garlic
-    "https://aux.iconspalace.com/uploads/10997651451607759607.png", # garlic
-    "https://aux.iconspalace.com/uploads/10997651451607759607.png", # garlic
+    "https://www.darello.com/web/image/product.template/9882/image_256", # fruchtzwerge
     "https://aux.iconspalace.com/uploads/10997651451607759607.png", # garlic
     "https://aux.iconspalace.com/uploads/10997651451607759607.png", # garlic
     "https://aux.iconspalace.com/uploads/10997651451607759607.png", # garlic
