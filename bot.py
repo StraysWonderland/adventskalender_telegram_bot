@@ -32,6 +32,7 @@ responses = [
     "Davon kannst du definitiv nicht genug haben: ",
     "Welch herzhafter Tag für ein herzhaftes Stück ",
     "Its dangerous to go alone. Take this: ",
+    "Damit du im nächsten Jahr auch mal ans mittlere Regal kommst: ",
     "Gepriesen sei der ",
     "Von mir, für dich ",
     "Ach wie schön. Es ist ",
@@ -43,7 +44,6 @@ responses = [
     "Du warst artig dieses Jahr! du erhälst ",
     "Warst du etwa doch unartig? denn heute gib es ",
     "Wir nähern uns dem Höhepunkt der Weihnachtszeit. Daher gibt es heute ", #Day 21
-    "",
     "",
     "",
     "Der Finale Tag!" # Day 24
