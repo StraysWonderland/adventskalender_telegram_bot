@@ -64,7 +64,7 @@ items = [
     "Knoblauch!",
     "Eine ganze Palette Fruchtzwerge!",
     "Knoblauch!",
-    "Knoblauch!",
+    "Eine ordentliche Tracht Prügel!",
     "Knoblauch!",
     "Knoblauch!",
     "Knoblauch!",
@@ -92,7 +92,7 @@ item_url = [
     "https://aux.iconspalace.com/uploads/10997651451607759607.png", # garlic
     "https://www.darello.com/web/image/product.template/9882/image_256", # fruchtzwerge
     "https://aux.iconspalace.com/uploads/10997651451607759607.png", # garlic
-    "https://aux.iconspalace.com/uploads/10997651451607759607.png", # garlic
+    "https://t3.ftcdn.net/jpg/02/88/92/54/360_F_288925438_JYRinW7uEvLWameTGgSTfQbuxFVQHTpR.jpg", # schläge
     "https://aux.iconspalace.com/uploads/10997651451607759607.png", # garlic
     "https://aux.iconspalace.com/uploads/10997651451607759607.png", # garlic
     "https://aux.iconspalace.com/uploads/10997651451607759607.png", # garlic
