@@ -36,7 +36,7 @@ responses = [
     "Gepriesen sei der ",
     "Von mir, für dich ",
     "Ach wie schön. Es ist ",
-    "Ach toll! Heute gibt es ",
+    "Ach toll! Heute gibt das Leben dir ",
     "Wie schön wäre jetzt ein Stück ",
     "Von ganzem Herzem ",
     "Was du schon immer wolltest ",
@@ -64,9 +64,10 @@ items = [
     "Knoblauch!",
     "Eine ganze Palette Fruchtzwerge!",
     "Knoblauch!",
-    "Eine ordentliche Tracht Prügel!",
     "Knoblauch!",
-    "Knoblauch!",
+    "    "Eine ordentliche Tracht Prügel!",
+!",
+    "Zitronen!",
     "Knoblauch!",
     "Knoblauch!",
     "Knoblauch!",
@@ -92,9 +93,9 @@ item_url = [
     "https://aux.iconspalace.com/uploads/10997651451607759607.png", # garlic
     "https://www.darello.com/web/image/product.template/9882/image_256", # fruchtzwerge
     "https://aux.iconspalace.com/uploads/10997651451607759607.png", # garlic
+    "https://aux.iconspalace.com/uploads/10997651451607759607.png", # garlic
     "https://t3.ftcdn.net/jpg/02/88/92/54/360_F_288925438_JYRinW7uEvLWameTGgSTfQbuxFVQHTpR.jpg", # schläge
-    "https://aux.iconspalace.com/uploads/10997651451607759607.png", # garlic
-    "https://aux.iconspalace.com/uploads/10997651451607759607.png", # garlic
+    "https://img-9gag-fun.9cache.com/photo/a7ErEwr_700bwp.webp", # garlic
     "https://aux.iconspalace.com/uploads/10997651451607759607.png", # garlic
     "https://aux.iconspalace.com/uploads/10997651451607759607.png", # garlic
     "https://aux.iconspalace.com/uploads/10997651451607759607.png", # garlic
