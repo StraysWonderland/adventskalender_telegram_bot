@@ -20,8 +20,7 @@ dispatcher = updater.dispatcher
 
 # Text message leading to the item reveal. These can be send in random order
 responses = [
-    #Day 0 - so wont get drafted currently
-    "Ich weiß dass dir folgendes gefallen wird ",
+    "Ich weiß dass dir folgendes gefallen wird ", # Day 0 - wont get drafted
     "Dein heutiges Geschenk: ",
     "Herzlichen Glückwunsch, du erhälst ",
     "Du musst trotzdem jeden Tag dein Tuerchen offenen um das Finale geschenk zu erhalten. Aber heute wird es ",
@@ -38,8 +37,8 @@ responses = [
     "Ach wie schön. Es ist ",
     "das hast du wohl verpasst -.-",
     "Warst du etwa unartig und hast das gestrige Türchen verpasst? denn heute gib es ",
-    "Ach toll! Heute schenkt das Leben dir ",
-    "Wie schön wäre jetzt ein Stück ",
+    "Ach toll! Heute bekommst du endlich ", #17
+    "Wie schön wäre jetzt ",
     "Von ganzem Herzem ",
     "Was wäre jetzt besser als ",
     "Was du schon immer wolltest ",
@@ -56,18 +55,20 @@ items = [
     "Knoblauch!", # Day 2
     "Knoblauch!", # Day 3
     "Knoblauch!", # Day 4
-    "Ein schönes Glas Senf!",
-    "Doch wieder Knoblauch!",
-    "Anti-Aging-Creme!!",
-    "Butter!",
-    "Eine saftige Packung Dosenravioli!",
-    "Knoblauch!",
-    "Eine ganze Palette Fruchtzwerge!",
-    "Knoblauch!",
-    "Knoblauch!",
-    "Ja nichts halt!",
-    "Eine ordentliche Tracht Prügel!",
-    "Zitronen!",
+    "Ein schönes Glas Senf!", #5
+    "Doch wieder Knoblauch!", #6
+    "Anti-Aging-Creme!!", #7
+    "Butter!", #8
+    "Eine saftige Packung Dosenravioli!", #9
+    "Knoblauch!", #10
+    "Eine ganze Palette Fruchtzwerge!", #11
+    "Knoblauch!", #12
+    "Knoblauch!", #13
+    "Ja nichts halt!", #14
+    "Eine ordentliche Tracht Prügel!", #15
+    "Zitronen!", #16
+    "Eine warme Umarmung von mir (rechts) für dich (links)", #17
+    "Eine ordentliche Tracht Prügel!", #18
     "Knoblauch!",
     "Knoblauch!",
     "Knoblauch!",
@@ -80,23 +81,25 @@ items = [
 ]
 
 item_url = [
-    "https://aux.iconspalace.com/uploads/10997651451607759607.png", # garlic
-    "https://aux.iconspalace.com/uploads/10997651451607759607.png", # garlic
-    "https://aux.iconspalace.com/uploads/10997651451607759607.png", # garlic
-    "https://aux.iconspalace.com/uploads/10997651451607759607.png", # garlic
-    "https://aux.iconspalace.com/uploads/10997651451607759607.png", # garlic
-    "https://ih1.redbubble.net/image.828904801.5611/st,small,507x507-pad,600x600,f8f8f8.u4.jpg", # mustard
-    "https://aux.iconspalace.com/uploads/10997651451607759607.png", # garlic
-    "https://emojigraph.org/media/apple/lotion-bottle_1f9f4.png", # creme emojie
+    "https://aux.iconspalace.com/uploads/10997651451607759607.png", # 0 garlic
+    "https://aux.iconspalace.com/uploads/10997651451607759607.png", # 1 garlic
+    "https://aux.iconspalace.com/uploads/10997651451607759607.png", # 2 garlic
+    "https://aux.iconspalace.com/uploads/10997651451607759607.png", # 3 garlic
+    "https://aux.iconspalace.com/uploads/10997651451607759607.png", # 4 garlic
+    "https://ih1.redbubble.net/image.828904801.5611/st,small,507x507-pad,600x600,f8f8f8.u4.jpg", # 5 mustard
+    "https://aux.iconspalace.com/uploads/10997651451607759607.png", # 6 garlic
+    "https://emojigraph.org/media/apple/lotion-bottle_1f9f4.png",   # 7 creme emojie
     "https://cdn.mdr.de/nachrichten/welt/osteuropa/land-leute/butter-inflation-preise-102-resimage_v-variantSmall1x1_w-256.jpg?version=115", #butter
     "https://media.istockphoto.com/photos/canned-ravioli-picture-id459388797?k=6&m=459388797&s=170667a&w=0&h=uOIFeqQGyWsaKvCYpQRTO_o9IOsTXi63ofjJf9LyQ1A=", # ravioli
-    "https://aux.iconspalace.com/uploads/10997651451607759607.png", # garlic
-    "https://www.darello.com/web/image/product.template/9882/image_256", # fruchtzwerge
-    "https://aux.iconspalace.com/uploads/10997651451607759607.png", # garlic
-    "https://aux.iconspalace.com/uploads/10997651451607759607.png", # garlic
+    "https://aux.iconspalace.com/uploads/10997651451607759607.png", # 10 garlic
+    "https://www.darello.com/web/image/product.template/9882/image_256", # 11 fruchtzwerge
+    "https://aux.iconspalace.com/uploads/10997651451607759607.png", # 12 garlic
+    "https://aux.iconspalace.com/uploads/10997651451607759607.png", # 13 garlic
     "https://imgs.search.brave.com/MZBcptfu1Q25GQKqbzRREnm9NH1GApqb9lfgIy1JMbc/rs:fit:256:256:1/g:ce/aHR0cDovL2Rvd25s/b2FkczIuZXNyaS5j/b20vc3VwcG9ydC9U/ZWNoQXJ0aWNsZXMv/YmxhbmsyNTYucG5n",
-    "https://t3.ftcdn.net/jpg/02/88/92/54/360_F_288925438_JYRinW7uEvLWameTGgSTfQbuxFVQHTpR.jpg", # schläge
-    "https://img-9gag-fun.9cache.com/photo/a7ErEwr_700bwp.webp", # zitronen
+    "https://t3.ftcdn.net/jpg/02/88/92/54/360_F_288925438_JYRinW7uEvLWameTGgSTfQbuxFVQHTpR.jpg", # 15 schläge
+    "https://img-9gag-fun.9cache.com/photo/a7ErEwr_700bwp.webp", # 16 zitronen
+    "https://www.google.de/url?sa=i&url=https%3A%2F%2Fwww.reddit.com%2Fr%2Fharrypotter%2Fcomments%2Fqaydo4%2Fsuch_a_beautiful_place_to_be_with_friends_dobby%2F&psig=AOvVaw3ngfZjFE5zsypWnxn2GSot&ust=1671264369466000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJimuIrX_fsCFQAAAAAdAAAAABAE", # 17 umarmung
+    "https://t3.ftcdn.net/jpg/02/88/92/54/360_F_288925438_JYRinW7uEvLWameTGgSTfQbuxFVQHTpR.jpg", # 18 schläge
     "https://aux.iconspalace.com/uploads/10997651451607759607.png", # garlic
     "https://aux.iconspalace.com/uploads/10997651451607759607.png", # garlic
     "https://aux.iconspalace.com/uploads/10997651451607759607.png", # garlic
