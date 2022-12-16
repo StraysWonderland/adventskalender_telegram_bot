@@ -36,7 +36,8 @@ responses = [
     "Gepriesen sei der ",
     "Von mir, für dich ",
     "Ach wie schön. Es ist ",
-    "Warst du etwa doch unartig? denn heute gib es ",
+    "das hast du wohl verpasst -.-",
+    "Warst du etwa unartig und hast das gestrige Türchen verpasst? denn heute gib es ",
     "Ach toll! Heute schenkt das Leben dir ",
     "Wie schön wäre jetzt ein Stück ",
     "Von ganzem Herzem ",
@@ -44,8 +45,7 @@ responses = [
     "Was du schon immer wolltest ",
     "Du warst doch artig dieses Jahr! du erhälst ",
     "Wir nähern uns dem Höhepunkt der Weihnachtszeit. Daher gibt es heute ", #Day 21
-    "",
-    "",
+    "...",
     "Der Finale Tag!" # Day 24
 ]
 
@@ -65,6 +65,7 @@ items = [
     "Eine ganze Palette Fruchtzwerge!",
     "Knoblauch!",
     "Knoblauch!",
+    "Ja nichts halt!",
     "Eine ordentliche Tracht Prügel!",
     "Zitronen!",
     "Knoblauch!",
@@ -93,8 +94,9 @@ item_url = [
     "https://www.darello.com/web/image/product.template/9882/image_256", # fruchtzwerge
     "https://aux.iconspalace.com/uploads/10997651451607759607.png", # garlic
     "https://aux.iconspalace.com/uploads/10997651451607759607.png", # garlic
+    "https://imgs.search.brave.com/MZBcptfu1Q25GQKqbzRREnm9NH1GApqb9lfgIy1JMbc/rs:fit:256:256:1/g:ce/aHR0cDovL2Rvd25s/b2FkczIuZXNyaS5j/b20vc3VwcG9ydC9U/ZWNoQXJ0aWNsZXMv/YmxhbmsyNTYucG5n",
     "https://t3.ftcdn.net/jpg/02/88/92/54/360_F_288925438_JYRinW7uEvLWameTGgSTfQbuxFVQHTpR.jpg", # schläge
-    "https://img-9gag-fun.9cache.com/photo/a7ErEwr_700bwp.webp", # garlic
+    "https://img-9gag-fun.9cache.com/photo/a7ErEwr_700bwp.webp", # zitronen
     "https://aux.iconspalace.com/uploads/10997651451607759607.png", # garlic
     "https://aux.iconspalace.com/uploads/10997651451607759607.png", # garlic
     "https://aux.iconspalace.com/uploads/10997651451607759607.png", # garlic
