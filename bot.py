@@ -21,30 +21,29 @@ dispatcher = updater.dispatcher
 # Text message leading to the item reveal. These can be send in random order
 responses = [
     "Ich weiß dass dir folgendes gefallen wird ", # Day 0 - wont get drafted
-    "Dein heutiges Geschenk: ",
-    "Herzlichen Glückwunsch, du erhälst ",
-    "Du musst trotzdem jeden Tag dein Tuerchen offenen um das Finale geschenk zu erhalten. Aber heute wird es ",
-    "Moment...Gibt es etwa jeden Tag das selbe? bestimmt nicht!!! aber heute schon ",
-    "Zur Feier des heutigen Tages schenke ich dir ",
-    "Frohlocke! Heute gibts ",
-    "Hoffe es ist noch nicht genug hiervon im Haus. Denn es gibt mehr ",
-    "Davon kannst du definitiv nicht genug haben: ",
-    "Welch herzhafter Tag für ein herzhaftes Stück ",
-    "Its dangerous to go alone. Take this: ",
-    "Damit du im nächsten Jahr auch mal ans mittlere Regal kommst: ",
-    "Gepriesen sei der ",
-    "Von mir, für dich ",
-    "Ach wie schön. Es ist ",
-    "das hast du wohl verpasst -.-",
-    "Warst du etwa unartig und hast das gestrige Türchen verpasst? denn heute gib es ",
+    "Dein heutiges Geschenk: ", #1
+    "Herzlichen Glückwunsch, du erhälst ", #2
+    "Du musst trotzdem jeden Tag dein Tuerchen offenen um das Finale geschenk zu erhalten. Aber heute wird es ", #3
+    "Moment...Gibt es etwa jeden Tag das selbe? bestimmt nicht!!! aber heute schon ", #4
+    "Zur Feier des heutigen Tages schenke ich dir ", #5
+    "Frohlocke! Heute gibts ", #6
+    "Hoffe es ist noch nicht genug hiervon im Haus. Denn es gibt mehr ", #7
+    "Davon kannst du definitiv nicht genug haben: ", #8
+    "Welch herzhafter Tag für ein herzhaftes Stück ", #9
+    "Its dangerous to go alone. Take this: ", #10
+    "Damit du im nächsten Jahr auch mal ans mittlere Regal kommst: ", #11
+    "Gepriesen sei der ", #12
+    "Von mir, für dich ", #13
+    "Ach wie schön. Es ist ", #14
+    "das hast du wohl verpasst -.-", #15
+    "Warst du etwa unartig und hast das gestrige Türchen verpasst? denn heute gib es ", #16
     "Ach toll! Heute bekommst du endlich ", #17
-    "Wie schön wäre jetzt ",
-    "Von ganzem Herzem ",
-    "Was wäre jetzt besser als ",
-    "Was du schon immer wolltest ",
-    "Du warst doch artig dieses Jahr! du erhälst ",
-    "Wir nähern uns dem Höhepunkt der Weihnachtszeit. Daher gibt es heute ", #Day 21
-    "...",
+    "Wie schön wäre jetzt ", #18
+    "Von ganzem Herzem ", #19
+    "Was wäre jetzt besser als ", #20
+    "Was du schon immer wolltest ", #21
+    "Du warst doch artig dieses Jahr! du erhälst ", #22
+    "Wir nähern uns dem Höhepunkt der Weihnachtszeit. Daher gibt es heute ", #23
     "Der Finale Tag!" # Day 24
 ]
 
@@ -69,14 +68,11 @@ items = [
     "Zitronen!", #16
     "Eine warme Umarmung von mir (rechts) für dich (links)", #17
     "Eine ordentliche Tracht Prügel!", #18
-    "Knoblauch!",
-    "Knoblauch!",
-    "Knoblauch!",
-    "Knoblauch!",
-    "Knoblauch!",
-    "Knoblauch!",
-    "Knoblauch!",
-    "Knoblauch!",
+    "Knoblauch!", #19
+    "Knoblauch!", #20
+    "Knoblauch!", #21
+    "Knoblauch!", #22
+    "Knoblauch!", #23
     "Knoblauch!" # Day 24 - this should be the "best" gift
 ]
 
@@ -100,15 +96,12 @@ item_url = [
     "https://img-9gag-fun.9cache.com/photo/a7ErEwr_700bwp.webp", # 16 zitronen
     "https://www.google.de/url?sa=i&url=https%3A%2F%2Fwww.reddit.com%2Fr%2Fharrypotter%2Fcomments%2Fqaydo4%2Fsuch_a_beautiful_place_to_be_with_friends_dobby%2F&psig=AOvVaw3ngfZjFE5zsypWnxn2GSot&ust=1671264369466000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJimuIrX_fsCFQAAAAAdAAAAABAE", # 17 umarmung
     "https://t3.ftcdn.net/jpg/02/88/92/54/360_F_288925438_JYRinW7uEvLWameTGgSTfQbuxFVQHTpR.jpg", # 18 schläge
-    "https://aux.iconspalace.com/uploads/10997651451607759607.png", # garlic
-    "https://aux.iconspalace.com/uploads/10997651451607759607.png", # garlic
-    "https://aux.iconspalace.com/uploads/10997651451607759607.png", # garlic
-    "https://aux.iconspalace.com/uploads/10997651451607759607.png", # garlic
-    "https://aux.iconspalace.com/uploads/10997651451607759607.png", # garlic
-    "https://aux.iconspalace.com/uploads/10997651451607759607.png", # garlic
-    "https://aux.iconspalace.com/uploads/10997651451607759607.png", # garlic
-    "https://aux.iconspalace.com/uploads/10997651451607759607.png", # garlic
-    "https://aux.iconspalace.com/uploads/10997651451607759607.png", # Day 24
+    "https://aux.iconspalace.com/uploads/10997651451607759607.png", # 19 garlic
+    "https://aux.iconspalace.com/uploads/10997651451607759607.png", # 20 garlic
+    "https://aux.iconspalace.com/uploads/10997651451607759607.png", # 21 garlic
+    "https://aux.iconspalace.com/uploads/10997651451607759607.png", # 22 garlic
+    "https://aux.iconspalace.com/uploads/10997651451607759607.png", # 23 garlic
+    "https://aux.iconspalace.com/uploads/10997651451607759607.png", # 24 garlic
 ]
 
 
