@@ -94,7 +94,7 @@ item_url = [
     "https://imgs.search.brave.com/MZBcptfu1Q25GQKqbzRREnm9NH1GApqb9lfgIy1JMbc/rs:fit:256:256:1/g:ce/aHR0cDovL2Rvd25s/b2FkczIuZXNyaS5j/b20vc3VwcG9ydC9U/ZWNoQXJ0aWNsZXMv/YmxhbmsyNTYucG5n",
     "https://t3.ftcdn.net/jpg/02/88/92/54/360_F_288925438_JYRinW7uEvLWameTGgSTfQbuxFVQHTpR.jpg", # 15 schläge
     "https://img-9gag-fun.9cache.com/photo/a7ErEwr_700bwp.webp", # 16 zitronen
-    "https://www.google.de/url?sa=i&url=https%3A%2F%2Fwww.reddit.com%2Fr%2Fharrypotter%2Fcomments%2Fqaydo4%2Fsuch_a_beautiful_place_to_be_with_friends_dobby%2F&psig=AOvVaw3ngfZjFE5zsypWnxn2GSot&ust=1671264369466000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJimuIrX_fsCFQAAAAAdAAAAABAE", # 17 umarmung
+    "https://i.redd.it/fdxsmm43jau71.jpg", # hug
     "https://t3.ftcdn.net/jpg/02/88/92/54/360_F_288925438_JYRinW7uEvLWameTGgSTfQbuxFVQHTpR.jpg", # 18 schläge
     "https://aux.iconspalace.com/uploads/10997651451607759607.png", # 19 garlic
     "https://aux.iconspalace.com/uploads/10997651451607759607.png", # 20 garlic
