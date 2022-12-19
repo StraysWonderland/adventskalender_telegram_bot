@@ -130,7 +130,7 @@ def tuer(update, context):
     logger.info("current day: " + str(day) + " " + "response text: " + response)
     context.bot.send_photo(chat_id=update.effective_chat.id, photo=item_url[day], caption=response)
 
-@bot.message_handler(commands=['oeffnen'])
+
 def oeffnen(update, context): 
     text = "Welches Tuerchen willst du oeffnen?."
     sent_msg = bot.send_message(message.chat.id, text, parse_mode="Markdown")
@@ -151,9 +151,11 @@ def day_handler(message):
     context.bot.send_photo(chat_id=update.effective_chat.id, photo=item_url[day], caption=response)
 
 # linking the /random command with the function random() 
-day_handler = CommandHandler('tuer', tuer)
-dispatcher.add_handler(day_handler)
+tuer_handler = CommandHandler('tuer', tuer)
+dispatcher.add_handler(tuer_handler)
 
+oeffnen_handler = CommandHandler('oeffnen', oeffnen)
+dispatcher.add_handler(oeffnen_handler)
 
 updater.start_webhook(
         listen="0.0.0.0",
