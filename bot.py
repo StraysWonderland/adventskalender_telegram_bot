@@ -67,10 +67,9 @@ items = [
     "Eine ordentliche Tracht Prügel!", #15
     "Zitronen!", #16
     "Eine warme Umarmung von mir (rechts) für dich (links)", #17
-    "Knoblauch!", #20
+    "Knoblauch!", #18
     "Eine ordentliche Tracht Prügel!", #19
-    "Ein Pfund Hack!", #18
-    "Knoblauch!", #20
+    "Ein Pfund Hack!", #20
     "Knoblauch!", #21
     "Knoblauch!", #22
     "Knoblauch!", #23
@@ -95,7 +94,7 @@ item_url = [
     "https://imgs.search.brave.com/MZBcptfu1Q25GQKqbzRREnm9NH1GApqb9lfgIy1JMbc/rs:fit:256:256:1/g:ce/aHR0cDovL2Rvd25s/b2FkczIuZXNyaS5j/b20vc3VwcG9ydC9U/ZWNoQXJ0aWNsZXMv/YmxhbmsyNTYucG5n",
     "https://t3.ftcdn.net/jpg/02/88/92/54/360_F_288925438_JYRinW7uEvLWameTGgSTfQbuxFVQHTpR.jpg", # 15 schläge
     "https://img-9gag-fun.9cache.com/photo/a7ErEwr_700bwp.webp", # 16 zitronen
-    "https://i.redd.it/fdxsmm43jau71.jpg", # hug
+    "https://i.redd.it/fdxsmm43jau71.jpg", # 17 hug
     "https://cdn.shopify.com/s/files/1/0801/6115/products/Hackfleisch_gemischt_large_19be004b-d021-4bf6-b90d-49ae49680feb_large.png?v=1432139188", # 18 Pfund Hack
     "https://t3.ftcdn.net/jpg/02/88/92/54/360_F_288925438_JYRinW7uEvLWameTGgSTfQbuxFVQHTpR.jpg", # 19 schläge
     "https://cdn.shopify.com/s/files/1/0801/6115/products/Hackfleisch_gemischt_large_19be004b-d021-4bf6-b90d-49ae49680feb_large.png?v=1432139188", # 20 Pfund Hack
