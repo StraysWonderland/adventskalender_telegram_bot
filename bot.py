@@ -40,7 +40,7 @@ responses = [
     "Ach toll! Heute bekommst du endlich ", #17
     "Wie schön wäre jetzt ", #18
     "Von ganzem Herzem ", #19
-    "Was wäre jetzt besser als ", #20
+    "Heute etwas persönliches ", #20
     "Was du schon immer wolltest ", #21
     "Du warst doch artig dieses Jahr! du erhälst ", #22
     "Wir nähern uns dem Höhepunkt der Weihnachtszeit. Daher gibt es heute ", #23
@@ -67,8 +67,9 @@ items = [
     "Eine ordentliche Tracht Prügel!", #15
     "Zitronen!", #16
     "Eine warme Umarmung von mir (rechts) für dich (links)", #17
-    "Eine ordentliche Tracht Prügel!", #18
-    "Knoblauch!", #19
+    "Knoblauch!", #20
+    "Eine ordentliche Tracht Prügel!", #19
+    "Ein Pfund Hack!", #18
     "Knoblauch!", #20
     "Knoblauch!", #21
     "Knoblauch!", #22
@@ -95,9 +96,9 @@ item_url = [
     "https://t3.ftcdn.net/jpg/02/88/92/54/360_F_288925438_JYRinW7uEvLWameTGgSTfQbuxFVQHTpR.jpg", # 15 schläge
     "https://img-9gag-fun.9cache.com/photo/a7ErEwr_700bwp.webp", # 16 zitronen
     "https://i.redd.it/fdxsmm43jau71.jpg", # hug
-    "https://t3.ftcdn.net/jpg/02/88/92/54/360_F_288925438_JYRinW7uEvLWameTGgSTfQbuxFVQHTpR.jpg", # 18 schläge
-    "https://aux.iconspalace.com/uploads/10997651451607759607.png", # 19 garlic
-    "https://aux.iconspalace.com/uploads/10997651451607759607.png", # 20 garlic
+    "https://cdn.shopify.com/s/files/1/0801/6115/products/Hackfleisch_gemischt_large_19be004b-d021-4bf6-b90d-49ae49680feb_large.png?v=1432139188", # 18 Pfund Hack
+    "https://t3.ftcdn.net/jpg/02/88/92/54/360_F_288925438_JYRinW7uEvLWameTGgSTfQbuxFVQHTpR.jpg", # 19 schläge
+    "https://cdn.shopify.com/s/files/1/0801/6115/products/Hackfleisch_gemischt_large_19be004b-d021-4bf6-b90d-49ae49680feb_large.png?v=1432139188", # 20 Pfund Hack
     "https://aux.iconspalace.com/uploads/10997651451607759607.png", # 21 garlic
     "https://aux.iconspalace.com/uploads/10997651451607759607.png", # 22 garlic
     "https://aux.iconspalace.com/uploads/10997651451607759607.png", # 23 garlic
