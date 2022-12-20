@@ -97,7 +97,7 @@ item_url = [
     "https://i.redd.it/fdxsmm43jau71.jpg", # 17 hug
     "https://cdn.shopify.com/s/files/1/0801/6115/products/Hackfleisch_gemischt_large_19be004b-d021-4bf6-b90d-49ae49680feb_large.png?v=1432139188", # 18 Pfund Hack
     "https://t3.ftcdn.net/jpg/02/88/92/54/360_F_288925438_JYRinW7uEvLWameTGgSTfQbuxFVQHTpR.jpg", # 19 schläge
-    "https://cdn.shopify.com/s/files/1/0801/6115/products/Hackfleisch_gemischt_large_19be004b-d021-4bf6-b90d-49ae49680feb_large.png?v=1432139188", # 20 Pfund Hack
+    "https://foedevareguiden.dk/wp-content/uploads/2021/02/shutterstock_1529096828-300x225.jpg", # 20 Pfund Hack
     "https://aux.iconspalace.com/uploads/10997651451607759607.png", # 21 garlic
     "https://aux.iconspalace.com/uploads/10997651451607759607.png", # 22 garlic
     "https://aux.iconspalace.com/uploads/10997651451607759607.png", # 23 garlic
