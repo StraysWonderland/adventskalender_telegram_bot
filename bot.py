@@ -41,7 +41,7 @@ responses = [
     "Wie schön wäre jetzt ", #18
     "Von ganzem Herzem ", #19
     "Heute etwas persönliches ", #20
-    "Was du schon immer wolltest ", #21
+    "Falls du mal eine Erfrischung gebrauchen könntest ", #21
     "Du warst doch artig dieses Jahr! du erhälst ", #22
     "Wir nähern uns dem Höhepunkt der Weihnachtszeit. Daher gibt es heute ", #23
     "Der Finale Tag!" # Day 24
@@ -70,7 +70,7 @@ items = [
     "Knoblauch!", #18
     "Eine ordentliche Tracht Prügel!", #19
     "Ein Pfund Hack!", #20
-    "Knoblauch!", #21
+    "Ein köstliches Glas Wurstwasser!", #21
     "Knoblauch!", #22
     "Knoblauch!", #23
     "Knoblauch!" # Day 24 - this should be the "best" gift
@@ -98,7 +98,7 @@ item_url = [
     "https://cdn.shopify.com/s/files/1/0801/6115/products/Hackfleisch_gemischt_large_19be004b-d021-4bf6-b90d-49ae49680feb_large.png?v=1432139188", # 18 Pfund Hack
     "https://t3.ftcdn.net/jpg/02/88/92/54/360_F_288925438_JYRinW7uEvLWameTGgSTfQbuxFVQHTpR.jpg", # 19 schläge
     "https://foedevareguiden.dk/wp-content/uploads/2021/02/shutterstock_1529096828-300x225.jpg", # 20 Pfund Hack
-    "https://aux.iconspalace.com/uploads/10997651451607759607.png", # 21 garlic
+    "https://th.bing.com/th/id/R.291be2461613aabf5d129f94fb8ab1c4?rik=s%2bXFAx%2bhPt%2bJbQ&pid=ImgRaw&r=0", # 21 Wurstwasser
     "https://aux.iconspalace.com/uploads/10997651451607759607.png", # 22 garlic
     "https://aux.iconspalace.com/uploads/10997651451607759607.png", # 23 garlic
     "https://aux.iconspalace.com/uploads/10997651451607759607.png", # 24 garlic
