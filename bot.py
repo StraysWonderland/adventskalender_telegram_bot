@@ -133,7 +133,7 @@ def tuer(update, context):
 
 def oeffnen(update, context): 
     text = "Welches Tuerchen willst du oeffnen?."
-    sent_msg = context.bot.send_message(chat_id=update.effective_chat.id, text, parse_mode="Markdown")
+    sent_msg = context.bot.send_message(chat_id=update.effective_chat.id, text)
     bot.register_next_step_handler(sent_msg, day_handler)
 
 def day_handler(message):
