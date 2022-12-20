@@ -131,31 +131,10 @@ def tuer(update, context):
     context.bot.send_photo(chat_id=update.effective_chat.id, photo=item_url[day], caption=response)
 
 
-def oeffnen(update, context): 
-    text = "Welches Tuerchen willst du oeffnen?."
-    sent_msg = context.bot.send_message(chat_id=update.effective_chat.id, text)
-    bot.register_next_step_handler(sent_msg, day_handler)
-
-def day_handler(message):
-    day = message.text
-    if day > len(responses):
-        context.bot.send_message(chat_id=update.effective_chat.id, text="Glückwunsch, du hast das Ende erreicht! Heute kein Knoblauch für dich. Aber dafür frohe Weihnachten!!")
-   
-    '''
-    Craft the response message text by getting text flair and item based on day
-    And get image to attach to message
-    '''
-    response = responses[day] + "..." + items[day] 
-    logger.info("current day: " + str(day) + " " + "response text: " + response)
-    context.bot.send_message(chat_id=update.effective_chat.id, response, parse_mode="Markdown")
-    context.bot.send_photo(chat_id=update.effective_chat.id, photo=item_url[day], caption=response)
-
 # linking the /random command with the function random() 
 tuer_handler = CommandHandler('tuer', tuer)
 dispatcher.add_handler(tuer_handler)
 
-oeffnen_handler = CommandHandler('oeffnen', oeffnen)
-dispatcher.add_handler(oeffnen_handler)
 
 updater.start_webhook(
         listen="0.0.0.0",
