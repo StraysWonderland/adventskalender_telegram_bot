@@ -44,7 +44,7 @@ responses = [
     "Falls du mal eine Erfrischung gebrauchen könntest ", #21
     "Du warst doch artig dieses Jahr! du erhälst ", #22
     "Wir nähern uns dem Höhepunkt der Weihnachtszeit. Daher gibt es heute ", #23
-    "Der Finale Tag!" # Day 24
+    "Der Finale Tag! Daher gibt es heute auch was einzigartiges" # Day 24
 ]
 
 # the items to reveal. send these in progressing order based on current day.
@@ -72,8 +72,8 @@ items = [
     "Ein Pfund Hack!", #20
     "Ein köstliches Glas Wurstwasser!", #21
     "Knoblauch!", #22
-    "Knoblauch!", #23
-    "Knoblauch!" # Day 24 - this should be the "best" gift
+    "Eine kuratierte Kollektion an außergewöhnlich guten Dickpicks! (Aus Gründen des Personalmangels müssen Sie sich diese allerdings selbst erstellen. Wir bitten die Unannehmlichkeiten zu entschuldigen)", #23
+    "Ein Pony!!!" # Day 24 - this should be the "best" gift
 ]
 
 item_url = [
@@ -100,8 +100,8 @@ item_url = [
     "https://foedevareguiden.dk/wp-content/uploads/2021/02/shutterstock_1529096828-300x225.jpg", # 20 Pfund Hack
     "https://th.bing.com/th/id/R.291be2461613aabf5d129f94fb8ab1c4?rik=s%2bXFAx%2bhPt%2bJbQ&pid=ImgRaw&r=0", # 21 Wurstwasser
     "https://aux.iconspalace.com/uploads/10997651451607759607.png", # 22 garlic
-    "https://aux.iconspalace.com/uploads/10997651451607759607.png", # 23 garlic
-    "https://aux.iconspalace.com/uploads/10997651451607759607.png", # 24 garlic
+    "https://i.kym-cdn.com/entries/icons/medium/000/019/068/lgJCmtjW_400x400.jpeg", #eggplant"
+    "https://th.bing.com/th/id/R.bf377e253652ab537370598bc1ba58c3?rik=h0usUFNhdo9BHA&pid=ImgRaw&r=0" # pony
 ]
 
 
